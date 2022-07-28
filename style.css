@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(59, 77, 117);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    color:gray;
+}
+
+header {
+    width: 70%;
+    color: whitesmoke;
+    font-family: 'Arial', 'sans-serif';
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    width: 70%;
+}
+
+img {
+    height: auto;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.some-quote-thing {
+    color:gainsboro;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.comment {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.the-actual-comment {
+    margin-top: 0px;
+    font-family: 'hack', 'sans-serif';
+}
+
+.comment-details {
+    display: flex;
+}
+
+.name, .time {
+    font-family: 'Arial', 'sans-serif';
+    font-size: 14px;
+}
+
+.name {
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+.time {
+    color: rgb(168, 168, 168);
+}
