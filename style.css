@@ -1,22 +1,9 @@
 body {
     background-color: rgb(59, 77, 117);
-    /* Make body element into flexbox container */
-    display: flex;
-    /* Align flex-items from top to bottom */
-    flex-direction: column;
-    /* items are centered in the cross-axis */
-    align-items: center;
 }
 
 nav {
     width: 100%;
-    /* Make nav a flexbox container */
-    /* This gives us the ability to use flexbox properties
-    on flex-items. */
-    /* Flex-items are the items inside of a flexbox container. */
-    display: flex;
-    /* items are packed toward the end of the flex-direction. */
-    justify-content: flex-end;
 }
 
 a {
@@ -64,9 +51,7 @@ img {
 }
 
 .comment-details {
-    /* display: flex is all we needed because the default behavior
-    of display: flex is flex-direction: row; */
-    display: flex;
+
 }
 
 .name, .time {
